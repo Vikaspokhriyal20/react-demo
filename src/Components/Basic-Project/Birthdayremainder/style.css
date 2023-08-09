@@ -39,8 +39,7 @@ main
     max-width: var(--fixed-width);
     border-radius: 5px;
     padding: 1rem 1.5rem;
-    margin:10px 0 0px 0;
-    
+    margin:10px 0 10px 0;
 
 }
 
