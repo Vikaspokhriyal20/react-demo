@@ -1,56 +1,89 @@
 *
 {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: monospace;
+}
 
+:root
+{
+    --clr-pink: #f28ab2;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --clr-grey-8: hsl(211, 39%, 23%);
+    --fixed-width:450px;
+    --clr-grey-4: hsl(209, 23%, 60%);
+    --spacing: 0.1rem;
+}
+
+body
+{
+    background-color: var(--clr-pink);
+    color: var(--clr-grey-8);
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+
+main
+{
+    /* min-height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container
 {
- text-align: center;
+    width: 85vw;
+    background-color: white;
+    max-width: var(--fixed-width);
+    border-radius: 5px;
+    padding: 1rem 1.5rem;
+    margin:10px 0 0px 0;
+    
+
 }
 
-.container h1
+.container h3
 {
-    color: black;
-    font-size: 18px;
-    letter-spacing: 1px;
+    color: var(--clr-grey-4);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    letter-spacing: var(--spacing);
+
 }
 
 .person
 {
-    background-color: yellow;
-    width: 60%;
-    display: flex;
-    margin-inline: auto;
-    justify-content: start;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 0.80rem;
+    margin-bottom: 1.5rem;
     align-items: center;
-    gap: 15px;
-    padding: 10px;
-}
 
+}
 .person img
 {
     width: 75px;
     height: 75px;
+    object-fit: cover;
     border-radius: 50%;
-   object-fit: cover;
+    box-shadow: var(--light-shadow);
 }
 
 .container button
 {
-    margin-top: 10px;
+    display: block;
+    width: 100%;
     border: none;
     outline: none;
-    background-color: black;
-    padding: 10px;
+    padding: .80rem;
+    background-color: var(--clr-pink);
+    text-transform: capitalize;
+    letter-spacing:var(--spacing);
+    border-radius: 5px;
     color: white;
+    font-size: 1.2rem;
 }
-
-@media screen and (max-width:725px) {
-    .person
-    {
-        width: 90%;
-    }
-}
-
