@@ -28,7 +28,7 @@ body
 .nav-item
 {
     display: flex;
-    gap: 2rem;
+    gap: 1.8rem;
     flex-wrap: wrap;
 }
 

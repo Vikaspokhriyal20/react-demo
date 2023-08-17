@@ -6,6 +6,7 @@ import About from "./Components/About";
 import Project from "./Components/Project";
 import Navbar from "./Components/Navbar";
 import Hooks from "./Components/Hooks";
+import Nopage from "./Components/Nopage";
 
 
 
@@ -19,7 +20,8 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="about" element={<About />}></Route> 
         <Route path="project" element={<Project />}></Route> 
-        <Route path="hooks" element={<Hooks/>}></Route>
+        <Route path="hooks" element={<Hooks />}></Route>
+        <Route path="*" element={<Nopage/>}></Route>
       </Routes>
     </>
   )
