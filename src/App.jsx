@@ -1,24 +1,24 @@
 import React, { useState } from "react";
 import './App.css'
-import data from './Components/Basic-Project/Birthdayremainder/data'
-import Birthdays from './Components/Basic-Project/Birthdayremainder/Birthdays'
+import { Routes, Route } from 'react-router-dom'
+import Home from "./Components/Home";
+import About from "./Components/About";
+import Project from "./Components/Project";
+import Navbar from "./Components/Navbar";
+
 
 
 
 function App() {
-  const [people, setPeople] = useState(data)
-
 
   return (
     <>
-      <main>
-        <section className='container'>
-          <h3>{people.length} birthday today</h3>
-          <Birthdays people={people} />
-          <button onClick={()=>setPeople([])}>clear all</button>
-        </section>
-      </main>
-
+    <Navbar/>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="about" element={<About />}></Route> 
+        <Route path="project" element={<Project/>}></Route> 
+      </Routes>
     </>
   )
 }
