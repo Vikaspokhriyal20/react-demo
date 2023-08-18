@@ -1,5 +1,4 @@
-* 
-{
+* {
     box-sizing: border-box;
     font-family: monospace;
     margin: 0;
@@ -7,16 +6,14 @@
 
 }
 
-body 
-{
+body {
     background-color: white;
 }
 
-#navbar
-{
+#navbar {
     width: 100vw;
     max-width: 1000px;
-    background-color: chocolate;
+    background-color: white;
     padding: 1.5rem;
     margin-inline: auto;
     display: flex;
@@ -25,22 +22,33 @@ body
     align-items: center;
 }
 
-.nav-item
-{
+@media screen and (max-width:380px) {
+    #navbar {
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+
+.nav-item {
     display: flex;
     gap: 1.8rem;
     flex-wrap: wrap;
 }
 
-#navbar a
-{
-    color: white;
+#navbar a {
+    color: black;
     text-decoration: none;
     font-size: 18px;
 }
 
-main
-{
+#navbar a.active {
+    color: purple;
+    font-size: 18px;
+    font-weight: bold;
+    filter: drop-shadow(2px 2px 2px purple);
+}
+
+main {
     width: 90vw;
     max-width: 1000px;
     margin-inline: auto;
@@ -50,15 +58,13 @@ main
     padding: 1rem;
 }
 
-.hooks-list
-{
-list-style: none;
+.hooks-list {
+    list-style: none;
 }
 
 
 
-.home
-{
+.home {
     background-color: black;
     max-width: 300px;
     /* margin-inline: auto; */
@@ -68,7 +74,11 @@ list-style: none;
 }
 
 
-
-
-
-
+#error {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 16px;
+}
