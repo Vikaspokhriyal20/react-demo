@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import './style.css' 
+import './style.css'
 import Logo from './Logo'
 
 const Navbar = () => {
@@ -9,9 +9,12 @@ const Navbar = () => {
             <nav id="navbar">
                 <Logo />
                 <div className='nav'>
-                <NavLink to='/'>Home</NavLink>
-                <NavLink to='about'>About</NavLink>
-                <NavLink to='project'>Project</NavLink>
+                    <NavLink to='Skill' className='nav-item'>Skills</NavLink>
+                    <NavLink to='about' className='nav-item'>About-Me</NavLink>
+                    <NavLink to='project' className='nav-item'>Project</NavLink>
+                </div>
+                <div className="github-link">
+                    <NavLink to='https://github.com/Vikaspokhriyal20' target='_blank' className='github-btn'>Github</NavLink>
                 </div>
             </nav>
         </>

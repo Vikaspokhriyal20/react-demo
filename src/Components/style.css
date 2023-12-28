@@ -15,14 +15,14 @@ body {
 
 #navbar {
     max-width: 1000px;
-    background-color: white;
-    padding: 1.5rem;
-    margin-inline: auto;
+    padding: 2rem 1rem;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
 }
+
 
 .logo-heading
 {
@@ -37,53 +37,126 @@ body {
     color: blueviolet;
 }
 
-@media screen and (max-width:380px) {
+
+.nav {
+    display: flex;
+    gap: 1.4rem;
+    flex-wrap: wrap;
+}
+
+.github-btn{
+    background-color: blueviolet;
+    color: white;
+    padding: 0.6rem 1rem;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    border-radius: 0.255rem;
+}
+
+.nav-item{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: rgb(134, 128, 128);
+    font-weight: 500;
+    text-transform: capitalize;
+}
+ a {
+    text-decoration: none;
+}
+
+.active{
+    color: blueviolet;
+}
+
+.home-section{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.home-content{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 2rem 1rem;
+}
+
+.home-left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    justify-content:center;
+    align-items: flex-start;
+    width: 50%;
+}
+.home-heading{
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+
+.home-job-role{
+    color: blueviolet;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding-bottom: 0.6rem;
+}
+
+.home-job-intro{
+    color:grey;
+    font-size: 0.8rem;
+    width: 90%;
+}
+
+.button-container{
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.cv-btn,.email-btn{
+    background-color: blueviolet;
+    color: white;
+    padding: 0.6rem 1rem;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    border-radius: 0.255rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.email-btn{
+    background-color: rgb(29, 28, 28);
+}
+
+.home-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0.255rem;
+    filter: drop-shadow(2px 2px 6px  blueviolet);
+}
+
+@media screen and (max-width:754px) {
+    .home-content {
+       flex-direction: column;
+    }
+    .home-left-side{
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       text-align: center;
+    }
+    .home-job-intro
+    {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:652px) {
     #navbar {
         justify-content: center;
         gap: 2rem;
     }
-}
-
-.nav {
-    display: flex;
-    gap: 1.8rem;
-    flex-wrap: wrap;
-}
-
-#navbar a {
-    text-decoration: none;
-}
-
-
-
-main {
-    width: 90vw;
-    max-width: 1000px;
-    margin-inline: auto;
-    background-color: aliceblue;
-    text-align: left;
-    height: 300px;
-    padding: 1rem;
-}
-
-
-
-
-.home {
-    background-color: black;
-    max-width: 300px;
-    /* margin-inline: auto; */
-    color: white;
-    text-align: left;
-    padding: 1rem;
-}
-
-
-#error {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: red;
-    font-size: 16px;
 }

@@ -1,15 +1,15 @@
 import React from 'react'
 // import react_logo from './assets/react.svg'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './style.css'
 
 const Logo = () => {
   return (
     <>
     <div className='logo-container'>
-        <Link to='/'>
+        <NavLink to='/'>
          <h4 className='logo-heading'>vikas pokhriyal</h4> 
-        </Link>  
+        </NavLink>  
     </div>
     </>
   )

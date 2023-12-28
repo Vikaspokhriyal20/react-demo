@@ -4,6 +4,7 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Project from "./Components/Project";
 import Navbar from "./Components/Navbar";
+import Skill from "./Components/Skill";
 import Nopage from "./Components/Nopage";
 
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="about" element={<About />}></Route> 
         <Route path="project" element={<Project />}></Route> 
+        <Route path="skill" element={<Skill />}></Route> 
         <Route path="*" element={<Nopage/>}></Route>
       </Routes>
     </>
