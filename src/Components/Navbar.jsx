@@ -8,11 +8,10 @@ const Navbar = () => {
         <>
             <nav id="navbar">
                 <Logo />
-                <div className='nav-item'>
+                <div className='nav'>
                 <NavLink to='/'>Home</NavLink>
                 <NavLink to='about'>About</NavLink>
                 <NavLink to='project'>Project</NavLink>
-                <NavLink to='hooks'>Hooks</NavLink>
                 </div>
             </nav>
         </>

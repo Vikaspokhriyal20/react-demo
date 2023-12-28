@@ -1,7 +1,7 @@
 import React from 'react'
-import react_svg from './assets/react.svg'
 
 const Home = () => {
+
   return (
     <>
       <main>
