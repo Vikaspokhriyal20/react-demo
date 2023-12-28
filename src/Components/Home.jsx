@@ -11,10 +11,10 @@ const Home = () => {
               <h3>Hello Vikas Here</h3>
             </div>
             <div className="home-job-role">
-              <h3>FrontEnd Developer and Programmer</h3>
+              <p><strong>FrontEnd Developer and Programmer</strong></p>
             </div>
             <div className="home-job-intro">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius labore animi nisi saepe assumenda eveniet accusantium obcaecati non! Veritatis, cupiditate ipsum repellat corrupti pariatur natus!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius labore animi nisi saepe assumenda eveniet accusantium obcaecati non Veritatis cupiditate ipsum repellat corrupti pariatur natus Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor necessitatibus.</p>
             </div>
 
             <div className="button-container">

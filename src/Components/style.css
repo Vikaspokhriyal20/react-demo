@@ -94,7 +94,7 @@ body {
 }
 
 .home-job-role{
-    color: blueviolet;
+    color: black;
     letter-spacing: 1px;
     font-weight: 400;
     padding-bottom: 0.6rem;
@@ -103,7 +103,8 @@ body {
 .home-job-intro{
     color:grey;
     font-size: 0.8rem;
-    width: 90%;
+    width: 75%;
+    line-height: 1.2rem;
 }
 
 .button-container{
@@ -133,10 +134,10 @@ body {
     height: 300px;
     object-fit: cover;
     border-radius: 0.255rem;
-    filter: drop-shadow(2px 2px 6px  blueviolet);
+    filter: drop-shadow(2px 2px 2px  #f5f5f5);
 }
 
-@media screen and (max-width:754px) {
+@media screen and (max-width:724px) {
     .home-content {
        flex-direction: column;
     }
@@ -148,15 +149,15 @@ body {
     }
     .home-job-intro
     {
-        width: 100%;
+        width: 80%;
     }
 }
 
 
 
-@media screen and (max-width:652px) {
-    #navbar {
-        justify-content: center;
-        gap: 2rem;
+@media screen and (max-width:724px) {
+    .nav {
+       display: none;
+       
     }
 }

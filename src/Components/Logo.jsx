@@ -8,7 +8,7 @@ const Logo = () => {
     <>
     <div className='logo-container'>
         <NavLink to='/'>
-         <h4 className='logo-heading'>vikas pokhriyal</h4> 
+         <h4 className='logo-heading'>vp</h4> 
         </NavLink>  
     </div>
     </>
