@@ -14,7 +14,7 @@ const Navbar = () => {
                     <NavLink to='project' className='nav-item'>Project</NavLink>
                 </div>
                 <div className="github-link">
-                    <NavLink to='https://github.com/Vikaspokhriyal20' target='_blank' className='github-btn'>Github</NavLink>
+                    <NavLink to='https://github.com/Vikaspokhriyal20' target='_blank' className='github-btn'>Github <i class="bi bi-github"></i></NavLink>
                 </div>
             </nav>
         </>

@@ -45,7 +45,7 @@ body {
 }
 
 .github-btn{
-    background-color: blueviolet;
+    background-color: black;
     color: white;
     padding: 0.6rem 1rem;
     letter-spacing: 1px;
@@ -88,16 +88,17 @@ body {
     align-items: flex-start;
     width: 50%;
 }
-.home-heading{
-    font-size: 1.6rem;
-    letter-spacing: 1px;
+.home-heading h4{
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
-.home-job-role{
-    color: black;
-    letter-spacing: 1px;
-    font-weight: 400;
+.home-job-role p{
+    color:blueviolet;
+    letter-spacing: 2px;
     padding-bottom: 0.6rem;
+    text-transform: uppercase;
 }
 
 .home-job-intro{
