@@ -5,9 +5,6 @@ const Skill = () => {
         <>
             <main className='skills-section'>
                 <div className="skills-content">
-                    <div className="skills-heading">
-                    <h4>Skills & Tools I Used</h4>
-                    </div>
                     <div className="skills-grid">
                         <div className="skills-name">
                             <h4>Html</h4>
