@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Fira+Code:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Fira+Code:wght@500&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Fira+Code:wght@500&family=Poppins:wght@300&display=swap');
+
 
 
 * {
     box-sizing: border-box;
-    font-family: Arsenal;
+    font-family: Poppins;
     margin: 0;
     padding: 0;
 
@@ -58,7 +61,7 @@ body {
     letter-spacing: 1px;
     color: rgb(134, 128, 128);
     font-weight: 500;
-    text-transform:uppercase;
+    text-transform:capitalize;
 }
  a {
     text-decoration: none;
@@ -198,7 +201,7 @@ body {
 
 .skills-name h4{
     letter-spacing: 2px;
-    text-transform: uppercase;
+    text-transform:capitalize;
     font-size: 1rem;
     padding-bottom: 1rem;
 }
@@ -251,6 +254,8 @@ body {
     justify-content: center;
     align-items:flex-start;
     position: relative;
+    border-radius: 0.255rem;
+     overflow: hidden;
 }
 
 .project-item h4
@@ -259,6 +264,13 @@ body {
     text-transform: capitalize;
 }
 
+.project-item p
+
+{
+    font-size: 0.9rem;
+    color: grey;
+    letter-spacing: 1px;
+}
 .visit-btn{
     background-color: black;
     padding: 0.4rem 0.6rem;
