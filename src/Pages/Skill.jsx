@@ -1,13 +1,13 @@
 import React from 'react'
-
+import Skillstyle from './Skill.module.css'
 const Skill = () => {
     return (
         <>
-            <main className='skills-section'>
-                <div className="skills-content">
-                    <div className="skills-grid">
-                        <div className="skills-name">
-                            <h4>Html</h4>
+            <main className={Skillstyle.container}>
+                <div className={Skillstyle.contentcontainer}>
+                    <div className={Skillstyle.gridcontainer}>
+                        <div className={Skillstyle.skillcontainer}>
+                            <h4 className={Skillstyle.skillname}>Html</h4>
                             <ul>
                                 <li>Semantic Tag</li>
                                 <li>Svg and Map</li>
@@ -16,8 +16,8 @@ const Skill = () => {
                                 <li>HTML Multimedia</li>
                             </ul>
                         </div>
-                        <div className="skills-name">
-                            <h4>Css</h4>
+                        <div className={Skillstyle.skillcontainer}>
+                            <h4 className={Skillstyle.skillname}>Css</h4>
                             <ul>
                                 <li>Semantic Tag</li>
                                 <li>Svg and Map</li>
@@ -26,8 +26,8 @@ const Skill = () => {
                                 <li>HTML Multimedia</li>
                             </ul>
                         </div>
-                        <div className="skills-name">
-                            <h4>Twailwind-Css</h4>
+                        <div className={Skillstyle.skillcontainer}>
+                            <h4 className={Skillstyle.skillname}>Twailwind-Css</h4>
                             <ul>
                                 <li>Semantic Tag</li>
                                 <li>Svg and Map</li>
@@ -36,7 +36,7 @@ const Skill = () => {
                                 <li>HTML Multimedia</li>
                             </ul>
                         </div>
-                        <div className="skills-name">
+                        <div className={Skillstyle.skillcontainer}>
                             <h4>Javascript</h4>
                             <ul>
                                 <li>Semantic Tag</li>
@@ -46,8 +46,8 @@ const Skill = () => {
                                 <li>HTML Multimedia</li>
                             </ul>
                         </div>
-                        <div className="skills-name">
-                            <h4>React.js</h4>
+                        <div className={Skillstyle.skillcontainer}>
+                            <h4 className={Skillstyle.skillname}>React.js</h4>
                             <ul>
                                 <li>Semantic Tag</li>
                                 <li>Svg and Map</li>
@@ -56,8 +56,8 @@ const Skill = () => {
                                 <li>HTML Multimedia</li>
                             </ul>
                         </div>
-                        <div className="skills-name">
-                            <h4>Git</h4>
+                        <div className={Skillstyle.skillcontainer}>
+                            <h4 className={Skillstyle.skillname}>Git</h4>
                             <ul>
                                 <li>Semantic Tag</li>
                                 <li>Svg and Map</li>
@@ -67,12 +67,8 @@ const Skill = () => {
                             </ul>
                         </div>
                     </div>
-
-                
                 </div>
-               
             </main>
-
         </>
     )
 }

@@ -1,0 +1,93 @@
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+   
+}
+
+.contentcontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 2rem 1rem;
+}
+
+.homeleft{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    justify-content:center;
+    align-items: flex-start;
+    flex: 50%;
+   
+}
+.homeheading h4{
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.jobtitle p{
+    color:blueviolet;
+    letter-spacing: 1px;
+    padding-bottom: 0.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.jobsummary{
+    color:grey;
+    font-size: 0.8rem;
+    width: 75%;
+    line-height: 1.2rem;
+}
+
+.buttoncontainer{
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.cvbutton,.contactbutton{
+    background-color: blueviolet;
+    color: white;
+    padding: 0.6rem 1rem;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    border-radius: 0.255rem;
+    border: none;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.contactbutton{
+    background-color: rgb(53, 51, 51);
+}
+.homeright{
+    flex: 50%;
+}
+
+.homeimg{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0.255rem;
+    filter: drop-shadow(2px 2px 2px  #f5f5f5);
+}
+
+@media screen and (max-width:724px) {
+    .contentcontainer {
+       flex-direction: column; 
+    }
+    .homeleft{
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       text-align: center;
+    }
+    .jobsummary
+    {
+        width: 100%;
+    }
+}
+

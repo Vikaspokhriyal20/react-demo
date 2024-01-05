@@ -1,0 +1,54 @@
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contentcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 1rem;
+   
+}
+
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.skillcontainer{
+    background-color: #f5f5f5;
+    text-align: left;
+    padding: 1.2rem 1.4rem;
+    border-radius:2px;
+}
+
+.skillname{
+    letter-spacing: 2px;
+    text-transform:capitalize;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.skillcontainer li{
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    color: grey;
+}
+
+
+@media screen and (max-width:634px) {
+    .gridcontainer{
+        grid-template-columns: repeat(2 ,1fr);
+    }
+}
+
+@media screen and (max-width:410px) {
+    .gridcontainer{
+        grid-template-columns: repeat(1 ,1fr);
+    }
+}
+

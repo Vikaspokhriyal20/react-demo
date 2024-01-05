@@ -1,14 +1,15 @@
 import React from 'react'
-// import react_logo from './assets/react.svg'
+import mylogo from '../assets/myLogo.png'
 import { NavLink } from 'react-router-dom'
-import './style.css'
+import Logostyle from './Logo.module.css'
+
 
 const Logo = () => {
   return (
     <>
-    <div className='logo-container'>
+    <div>
         <NavLink to='/'>
-         <h4 className='logo-heading'>vp</h4> 
+        <img src={mylogo} alt="img" className={Logostyle.mylogo}/>
         </NavLink>  
     </div>
     </>

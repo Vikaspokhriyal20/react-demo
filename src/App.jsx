@@ -1,11 +1,12 @@
-import React from "react";
+import React from "react"
+import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import Home from "./Components/Home";
-import About from "./Components/About";
-import Project from "./Components/Project";
-import Navbar from "./Components/Navbar";
-import Skill from "./Components/Skill";
-import Nopage from "./Components/Nopage";
+import Home from "./Pages/Home"
+import About from "./Pages/About"
+import Project from "./Pages/Project"
+import Navbar from "./Components/Navbar"
+import Skill from "./Pages/Skill"
+import Page404 from "./Pages/Page404"
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
         <Route path="about" element={<About />}></Route> 
         <Route path="project" element={<Project />}></Route> 
         <Route path="skill" element={<Skill />}></Route> 
-        <Route path="*" element={<Nopage/>}></Route>
+        <Route path="*" element={<Page404/>}></Route>  
       </Routes>
     </>
   )

@@ -1,10 +1,9 @@
 import React from 'react'
 
-const Home = () => {
-
+const About = () => {
   return (
     <>
-      <main className='home-section'>
+     <main className='home-section'>
         <div className="home-content">
           <div className="home-left-side">
             <div className="home-heading">
@@ -23,12 +22,13 @@ const Home = () => {
             </div>
           </div>
           <div className="home-right-side">
-            <img src="https://images.unsplash.com/photo-1591991564021-0662a8573199?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3" alt="img" className='home-img' />
+            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3" alt="img" className='home-img' />
           </div>
        </div>
       </main>
     </>
+
   )
 }
 
-export default Home
+export default About
