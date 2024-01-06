@@ -11,7 +11,7 @@ const Home = () => {
               <h4> Hello Vikas Here...</h4>
             </div>
             <div className={Homestyle.jobtitle}>
-              <p>FrontEnd Developer and Programmer</p>
+              <p>FrontEnd & React.js Developer</p>
             </div>
             <div className={Homestyle.jobsummary}>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius labore animi nisi saepe assumenda eveniet accusantium obcaecati non Veritatis cupiditate ipsum repellat corrupti pariatur natus Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor necessitatibus.</p>

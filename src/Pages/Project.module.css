@@ -17,45 +17,43 @@
 }
 
 .projectcontainer {
-    background-color: #E7E3E4;
     min-height: 180px;
+    border: 1.5px solid blueviolet;
+    background-color: white;
     padding: 1.2rem 1.4rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     justify-content: center;
     align-items: flex-start;
-    position: relative;
     border-radius: 2px;
     overflow: hidden;
 }
 
 .projectcontainer h4 {
     letter-spacing: 1px;
-    text-transform:capitalize;
     color:black;
     font-size: 1rem;
 }
 
 
 .projectcontainer p {
-    font-size: 0.8rem;
-    color:black;
+    font-size: 0.9rem;
+    color:grey;
     letter-spacing: 1px;
    
 }
 
 .visitbutton {
-    background-color:black;
+    background-color: blueviolet;
+    font-weight: bold;
     padding: 0.4rem 0.6rem;
     border: none;
     color: white;
-    font-size: 1rem;
+    border-radius: 2px;
     letter-spacing: 1px;
-    position: absolute;
-    top: 0;
-    right: 0;
     cursor: pointer;
+    text-transform: capitalize;
 }
 
 

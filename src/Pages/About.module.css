@@ -33,7 +33,7 @@
 }
 
 
-.usersummary {
+.usersummary p{
     font-size: 0.8rem;
     color: grey;
     line-height: 1.2rem;
@@ -43,9 +43,9 @@
 
 .userinfo h4 {
     text-align: center;
-    letter-spacing: 1px;
-    color: black;
-    font-weight: bold;
+    letter-spacing: 1.2px;
+    color: blueviolet;
+    font-family: Monomaniac One;
 }
 
 .userinfo p {
@@ -102,26 +102,28 @@
 
 .linkedinbutton
 {
-    border: 2px solid blueviolet;
+    border: 1.5px solid blueviolet;
     color: blueviolet;
     letter-spacing: 1px;
-    padding: 0.6rem 1.4rem;
+    padding: 0.6rem 1rem;
     font-weight: bold;
     background-color: white;
     outline: none;
     cursor: pointer;
+    border-radius: 2px;
 
 }
 
 .contactbutton {
     background-color: black;
     color: white;
-    padding: 0.6rem 1.4rem;
+    padding: 0.6rem 1rem;
     letter-spacing: 1px;
     text-transform: capitalize;
     border: none;
     cursor: pointer;
     font-weight: bold;
+    border-radius: 2px;
 }
 
 @media screen and (max-width:850px) {
@@ -137,12 +139,24 @@
 }
 @media screen and (max-width:650px) {
     .contentcontainer{
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 0.8rem;
     }
 
     .leftcontainer{
       box-shadow: none;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 0;
+    }
+
+    .usersummary p{
+        text-align: left;
+    }
+
+    .userinfo h4
+    {
+        text-align: left;
     }
 
     .aboutheading h4
@@ -154,5 +168,3 @@
         font-size: 0.9rem;
     }
 }
-
-
