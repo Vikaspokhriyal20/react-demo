@@ -53,7 +53,6 @@
     letter-spacing: 1px;
     color: grey;
     font-size: 0.8rem;
-    font-weight: bold;
 }
 
 .rightcontainer {
@@ -77,13 +76,13 @@
 {
  font-size: 2rem;
  letter-spacing: 1.2px;
- font-style: italic;
  width: 70%;
 }
 
 .usecolor
 {
     color: blueviolet;
+    font-family: cursive;
 }
 
 .aboutsummary
@@ -103,10 +102,10 @@
 
 .linkedinbutton
 {
-    border: 0.5px solid blueviolet;
+    border: 2px solid blueviolet;
     color: blueviolet;
     letter-spacing: 1px;
-    padding: 0.4rem 1.4rem;
+    padding: 0.6rem 1.4rem;
     font-weight: bold;
     background-color: white;
     outline: none;
@@ -117,7 +116,7 @@
 .contactbutton {
     background-color: black;
     color: white;
-    padding: 0.4rem 1.4rem;
+    padding: 0.6rem 1.4rem;
     letter-spacing: 1px;
     text-transform: capitalize;
     border: none;
@@ -139,24 +138,20 @@
 @media screen and (max-width:650px) {
     .contentcontainer{
         flex-direction: column;
-        gap: 1rem;
+        gap: 0.8rem;
     }
 
     .leftcontainer{
-        box-shadow: none;
-        background-color: blueviolet;
-        color: white;
+      box-shadow: none;
     }
 
-    .usersummary
+    .aboutheading h4
     {
-        color: white;
+        font-size: 1.4rem;
     }
-
-    .userinfo h4 , .userinfo p
+    .aboutheading p
     {
-        color: white;
-
+        font-size: 0.9rem;
     }
 }
 

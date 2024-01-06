@@ -21,8 +21,10 @@ const About = () => {
           </div>
           {/* right-container */}
           <div className={Aboutstyle.rightcontainer}>
-            <div className={Aboutstyle.aboutheading}>
+          <div className={Aboutstyle.aboutheading}>
               <p>about me</p>
+            </div>
+            <div className={Aboutstyle.aboutheading}>
               <h4>A better team with <span className={Aboutstyle.usecolor}>good services</span></h4>
             </div>
             <div className={ Aboutstyle.aboutsummary}>
