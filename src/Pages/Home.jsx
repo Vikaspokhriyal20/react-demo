@@ -8,7 +8,7 @@ const Home = () => {
         <div className={Homestyle.contentcontainer}>
           <div className={Homestyle.homeleft}>
             <div className={Homestyle.homeheading}>
-              <h4>Hello Vikas Here...</h4>
+              <h4> Hello Vikas Here...</h4>
             </div>
             <div className={Homestyle.jobtitle}>
               <p>FrontEnd Developer and Programmer</p>

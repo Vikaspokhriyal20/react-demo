@@ -1,0 +1,163 @@
+.container {
+    /* background-color: blue; */
+    color: black;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contentcontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    padding: 2rem 1rem;
+}
+
+.leftcontainer {
+    display: flex;
+    padding: 3rem 1rem;
+    min-height: 300px;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex: 30%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+.userimg {
+    height: 4rem;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.usersummary {
+    font-size: 0.8rem;
+    color: grey;
+    line-height: 1.2rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.userinfo h4 {
+    text-align: center;
+    letter-spacing: 1px;
+    color: black;
+    font-weight: bold;
+}
+
+.userinfo p {
+    text-align: center;
+    letter-spacing: 1px;
+    color: grey;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.rightcontainer {
+    flex: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.8rem;
+}
+
+.aboutheading p
+{
+    color: grey;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.aboutheading h4
+{
+ font-size: 2rem;
+ letter-spacing: 1.2px;
+ font-style: italic;
+ width: 70%;
+}
+
+.usecolor
+{
+    color: blueviolet;
+}
+
+.aboutsummary
+{
+    color: grey;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    letter-spacing: 1.2px;
+}
+
+.buttoncontainer {
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.linkedinbutton
+{
+    border: 0.5px solid blueviolet;
+    color: blueviolet;
+    letter-spacing: 1px;
+    padding: 0.4rem 1.4rem;
+    font-weight: bold;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.contactbutton {
+    background-color: black;
+    color: white;
+    padding: 0.4rem 1.4rem;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media screen and (max-width:850px) {
+    .leftcontainer,.rightcontainer
+    {
+       flex: 50%;
+    }
+
+    .aboutheading h4
+    {
+        width: 100%;
+    }
+}
+@media screen and (max-width:650px) {
+    .contentcontainer{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .leftcontainer{
+        box-shadow: none;
+        background-color: blueviolet;
+        color: white;
+    }
+
+    .usersummary
+    {
+        color: white;
+    }
+
+    .userinfo h4 , .userinfo p
+    {
+        color: white;
+
+    }
+}
+
+
