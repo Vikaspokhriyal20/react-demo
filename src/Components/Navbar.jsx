@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from './Logo'
 import Githubbtn from './Githubbtn'
 import NavbarLink from './NavbarLink'
-import Navbarstyle from './Nav.module.css'
+import Navbarstyle from './Navbar.module.css'
 
 
 const Navbar = () => {

@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Navlinkstyle from './Navitem.module.css'
+import Navlinkstyle from './Navbarlink.module.css'
 import './style.css'
 
 

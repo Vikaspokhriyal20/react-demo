@@ -23,7 +23,7 @@ const Home = () => {
             </div>
           </div>
           <div className={Homestyle.homeright}>
-            <img src="https://images.unsplash.com/photo-1591991564021-0662a8573199?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3" alt="img" className={Homestyle.homeimg} />
+            <img src="https://images.unsplash.com/photo-1567646303972-f7de3a9c0a05?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&" alt="img" className={Homestyle.homeimg} />
           </div>
        </div>
       </main>
