@@ -4,6 +4,14 @@
     flex-wrap: wrap;
 }
 
+.navlinksm
+{
+    display: flex;
+    gap: 1.4rem;
+    flex-wrap: wrap;
+    display: none;
+}
+
 .active{
     color: blueviolet;
 }
@@ -16,3 +24,19 @@
     text-transform:uppercase;
 }
 
+@media screen and (max-width:624px) {
+    .navlink {
+       display: none;
+    }
+
+    .navlinksm
+    {
+        display: block;
+        display: flex;
+        gap: 1.4rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+}
