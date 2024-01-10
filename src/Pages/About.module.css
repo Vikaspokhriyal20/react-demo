@@ -111,7 +111,13 @@
     outline: none;
     cursor: pointer;
     border-radius: 2px;
+    transition: all 0.3s ease;
+}
 
+.linkedinbutton:hover
+{
+    border-color: gray;
+    color: grey;
 }
 
 .contactbutton {
