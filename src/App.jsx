@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom'
 import Home from "./Pages/Home"
 import About from "./Pages/About"
 import Project from "./Pages/Project"
-import Navbar from "./components/Navbar"
+import Navbar from "./Components/Navbar"
 import Skill from "./Pages/Skill"
 import Page404 from "./Pages/Page404"
 
