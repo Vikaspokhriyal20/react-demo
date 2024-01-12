@@ -6,7 +6,7 @@ const Githubbtn = () => {
     return (
         <>
             <div>
-            <NavLink to='https://github.com/Vikaspokhriyal20' target='_blank' className={Buttonstyle.github}>Github <i class="bi bi-github"></i></NavLink>
+            <NavLink to='https://github.com/Vikaspokhriyal20' target='_blank' className={Buttonstyle.github}>Github <i className="bi bi-github"></i></NavLink>
            </div>           
         </>
     )
