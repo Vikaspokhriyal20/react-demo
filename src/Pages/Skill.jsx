@@ -37,7 +37,7 @@ const Skill = () => {
                             </ul>
                         </div>
                         <div className={Skillstyle.skillcontainer}>
-                            <h4>Javascript</h4>
+                            <h4 className={Skillstyle.skillname}>Javascript</h4>
                             <ul>
                                 <li>Semantic Tag</li>
                                 <li>Svg and Map</li>
