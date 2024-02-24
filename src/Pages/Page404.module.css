@@ -1,0 +1,23 @@
+.container
+{
+    width: 1000px;
+    padding: 2rem 1rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container h1
+{
+    color: red;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.container p
+{
+    color: purple;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    
+}

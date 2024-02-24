@@ -27,8 +27,8 @@
 }
 
 .jobtitle p{
-    color:grey;
-    letter-spacing: 1px;
+    color:black;
+    letter-spacing: 1.2px;
     padding-bottom: 0.4rem;
     text-transform: uppercase;
     font-weight: bold;
@@ -36,10 +36,11 @@
 }
 
 .jobsummary{
-    color:grey;
-    font-size: 0.8rem;
-    width: 75%;
+    color:black;
+    font-size: 0.9rem;
+    width: 80%;
     line-height: 1.2rem;
+    letter-spacing: 1px;
 }
 
 .buttoncontainer{
